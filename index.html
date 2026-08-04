@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenedor Libre Vitalia Campestre | Olmué</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        campestre: {
+                            50: '#fdfcf7',
+                            100: '#f7f3e8',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                            900: '#78350f',
+                            forest: '#2d4a22',
+                            earth: '#8b5a2b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        h1, h2, h3, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-campestre-50 text-gray-800 antialiased selection:bg-amber-500 selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-amber-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-campestre-forest rounded-full flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-utensils text-xl text-amber-400"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-bold font-serif text-campestre-900 block leading-tight">Vitalia Campestre</span>
+                    <span class="text-xs text-amber-700 font-semibold tracking-wider uppercase">Tenedor Libre Criollo • Olmué</span>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm">
+                <a href="#experiencia" class="text-gray-600 hover:text-amber-700 transition">Experiencia</a>
+                <a href="#herencia" class="text-gray-600 hover:text-amber-700 transition">Herencia Huasa</a>
+                <a href="#multimedia" class="text-gray-600 hover:text-amber-700 transition">Videos y Opiniones</a>
+                <a href="#ubicacion" class="text-gray-600 hover:text-amber-700 transition">Ubicación</a>
+            </nav>
+
+            <div>
+                <a href="https://wa.me/56961703998?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20Tenedor%20Libre%20Vitalia%20Campestre" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-5 py-2.5 rounded-full shadow-md transition transform hover:-translate-y-0.5 text-sm flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg">+56 9 6170 3998</i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-campestre-forest text-white py-24 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-25 bg-[radial-gradient(#4ade80_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/90 text-white mb-6">
+                    <i class="fa-solid fa-star"></i> Exquisito y Único en Quebrada Alvarado
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold font-serif tracking-tight leading-tight mb-6">
+                    El Verdadero Sabor Criollo al Pie de La Campana
+                </h1>
+                <p class="text-lg text-gray-200 mb-8 leading-relaxed">
+                    Un concepto único de tenedor libre campestre en Olmué. Tradición, abundancia, aire puro y la mejor cocina chilena en un entorno natural incomparable.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#multimedia" class="bg-amber-600 hover:bg-amber-500 text-white font-semibold px-8 py-3.5 rounded-full shadow-lg transition transform hover:-translate-y-1 flex items-center gap-2">
+                        <i class="fa-solid fa-play-circle text-lg"></i> Ver Videos de TikTok
+                    </a>
+                    <a href="https://wa.me/56961703998" target="_blank" class="bg-white/10 hover:bg-white/25 border border-white/30 text-white font-semibold px-8 py-3.5 rounded-full transition transform hover:-translate-y-1">
+                        Contacto por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Metrics / Info Bar -->
+    <section class="bg-white border-b border-amber-100 shadow-md relative z-10 -mt-8 max-w-6xl mx-auto rounded-2xl grid grid-cols-2 md:grid-cols-4 gap-6 p-6 mx-4 md:mx-auto">
+        <div class="flex items-center space-x-4 border-r border-gray-100 last:border-none transition transform hover:scale-105">
+            <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-xl font-bold">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div>
+                <span class="text-xs text-gray-500 block uppercase font-semibold">Formato</span>
+                <span class="text-gray-900 font-bold text-base">Tenedor Libre Criollo</span>
+            </div>
+        </div>
+        <div class="flex items-center space-x-4 border-r border-gray-100 last:border-none transition transform hover:scale-105">
+            <div class="w-12 h-12 rounded-xl bg-green-50 text-green-600 flex items-center justify-center text-xl font-bold">
+                <i class="fa-solid fa-wallet"></i>
+            </div>
+            <div>
+                <span class="text-xs text-gray-500 block uppercase font-semibold">Factura Promedio</span>
+                <span class="text-gray-900 font-bold text-base">$15.000 - $20.000</span>
+            </div>
+        </div>
+        <div class="flex items-center space-x-4 border-r border-gray-100 last:border-none transition transform hover:scale-105">
+            <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl font-bold">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div>
+                <span class="text-xs text-gray-500 block uppercase font-semibold">Comunidad</span>
+                <span class="text-gray-900 font-bold text-base">9.5K+ Seguidores TikTok</span>
+            </div>
+        </div>
+        <div class="flex items-center space-x-4 transition transform hover:scale-105">
+            <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center text-xl font-bold">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+                <span class="text-xs text-gray-500 block uppercase font-semibold">Ubicación</span>
+                <span class="text-gray-900 font-bold text-base">F-10-G 218, Olmué</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experiencia" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl sm:text-4xl font-bold font-serif text-campestre-900 mb-4">La Experiencia Vitalia Campestre</h2>
+            <p class="text-gray-600">Un destino imperdible en el corazón de Quebrada Alvarado, donde familias y turistas disfrutan de la gastronomía típica chilena en abundancia y con un ambiente inigualable.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-amber-100 transition duration-300 transform hover:-translate-y-2 hover:shadow-xl">
+                <div class="w-14 h-14 bg-amber-100 rounded-2xl flex items-center justify-center text-amber-700 text-2xl mb-6">
+                    <i class="fa-solid fa-plate-wheat"></i>
+                </div>
+                <h3 class="text-xl font-bold font-serif text-gray-900 mb-3">Comida Típica Chilena</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Platos tradicionales preparados con recetas de antaño, carnes sabrosas, guisos caseros y una variedad increíble de ensaladas frescas de la zona.
+                </p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-amber-100 transition duration-300 transform hover:-translate-y-2 hover:shadow-xl">
+                <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center text-green-700 text-2xl mb-6">
+                    <i class="fa-solid fa-mountain-sun"></i>
+                </div>
+                <h3 class="text-xl font-bold font-serif text-gray-900 mb-3">Entorno Natural Único</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Situados en F-10-G 218, Quebrada Alvarado, rodeados de aire puro, tranquilidad y hermosos paisajes cordilleranos muy cerca del Parque Nacional La Campana.
+                </p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-amber-100 transition duration-300 transform hover:-translate-y-2 hover:shadow-xl">
+                <div class="w-14 h-14 bg-amber-100 rounded-2xl flex items-center justify-center text-amber-700 text-2xl mb-6">
+                    <i class="fa-solid fa-face-smile-beam"></i>
+                </div>
+                <h3 class="text-xl font-bold font-serif text-gray-900 mb-3">Bueno, Bonito y Barato</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Como dicen nuestros propios visitantes: "Gran variedad de comida, excelente atención y postres imperdibles" con una relación precio-calidad sobresaliente.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Herencia Huasa Section -->
+    <section id="herencia" class="py-16 bg-amber-900/10 border-y border-amber-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="transition duration-300 transform hover:scale-[1.02]">
+                    <span class="text-xs uppercase tracking-wider font-bold text-amber-700 block mb-2">Tradición y Folclore</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold font-serif text-campestre-900 mb-4">Acompañados por "Herencia Huasa"</h2>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        En Vitalia Campestre no solo disfrutas de la mejor gastronomía, sino también de la auténtica cultura chilena. Ven a deleitarte con nuestros platos mientras disfrutes de presentaciones en vivo de cueca y folclore a cargo del grupo <strong>Herencia Huasa</strong>.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="bg-white px-4 py-3 rounded-xl border border-amber-200 shadow-sm flex items-center gap-3">
+                            <i class="fa-solid fa-music text-amber-600 text-xl"></i>
+                            <div>
+                                <span class="text-xs text-gray-500 block">Espectáculo en vivo</span>
+                                <span class="font-bold text-gray-900 text-sm">Cueca y Tradición Chilena</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative rounded-3xl overflow-hidden shadow-xl border border-amber-200 group transition duration-300 transform hover:-translate-y-2">
+                    <div class="absolute inset-0 bg-cover bg-center transition duration-700 group-hover:scale-105" style="background-image: url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&q=80&w=800');"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div class="relative z-10 p-8 h-80 flex flex-col justify-end text-white">
+                        <span class="bg-amber-600 text-xs px-2.5 py-1 rounded-md font-semibold w-max mb-2">Folclore en Vivo</span>
+                        <h3 class="text-2xl font-bold font-serif">Bailes y Cueca con Herencia Huasa</h3>
+                        <p class="text-sm text-gray-200 mt-1">Ambiente familiar inigualable cada fin de semana.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multimedia / TikTok & Google Maps Reviews Section -->
+    <section id="multimedia" class="py-20 bg-campestre-100/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-xs uppercase tracking-wider font-bold text-amber-700 block mb-2">Videos Interactivos y Opiniones</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold font-serif text-campestre-900">TikTok y Reseñas de Google Maps</h2>
+                </div>
+                <div class="mt-4 md:mt-0 flex gap-3">
+                    <a href="https://www.tiktok.com/@vitaliacampestre" target="_blank" class="inline-flex items-center gap-2 bg-black text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition shadow transform hover:scale-105">
+                        <i class="fa-brands fa-tiktok"></i> Seguir @vitaliacampestre
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-8 items-start">
+                <!-- TikTok Simulated Video Player -->
+                <div class="lg:col-span-5 bg-white p-6 rounded-3xl shadow-lg border border-amber-100 transition duration-300 transform hover:-translate-y-1">
+                    <div class="flex items-center justify-between mb-4 pb-3 border-b border-gray-100">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-amber-600 text-white flex items-center justify-center font-bold">VC</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-gray-900">Tenedor Libre Vitalia Campestre</h4>
+                                <span class="text-xs text-gray-500">@vitaliacampestre • Olmué</span>
+                            </div>
+                        </div>
+                        <span class="bg-red-100 text-red-600 text-xs px-2.5 py-1 rounded-full font-semibold animate-pulse">TIKTOK VIRAL</span>
+                    </div>
+
+                    <!-- Video Container -->
+                    <div class="relative bg-gray-900 rounded-2xl aspect-[9/16] max-h-[480px] w-full overflow-hidden flex flex-col justify-end p-6 text-white shadow-inner group">
+                        <div id="videoBg" class="absolute inset-0 bg-cover bg-center opacity-80 group-hover:scale-105 transition duration-500" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=800');"></div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent"></div>
+                        
+                        <!-- Play / Pause Overlay -->
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <button id="playBtn" onclick="toggleVideoSim()" class="w-16 h-16 bg-amber-600/90 hover:bg-amber-500 text-white rounded-full flex items-center justify-center shadow-2xl transition transform hover:scale-110">
+                                <i id="playIcon" class="fa-solid fa-play text-2xl ml-1"></i>
+                            </button>
+                        </div>
+
+                        <!-- Video Info Overlay -->
+                        <div class="relative z-10 pointer-events-none">
+                            <span class="bg-amber-600 text-xs font-semibold px-2.5 py-1 rounded-md mb-2 inline-block">Exquisito Tenedor Libre Criollo</span>
+                            <p id="videoCaption" class="text-sm font-medium leading-snug mb-3">¡Ven a disfrutar con tu familia de los mejores platos chilenos y bailes típicos en Quebrada Alvarado! 🇨🇱✨</p>
+                            <div class="flex items-center justify-between text-xs text-gray-300">
+                                <span><i class="fa-solid fa-heart text-red-500"></i> <span id="likeCount">28.7K</span> Me gusta</span>
+                                <span><i class="fa-solid fa-comment"></i> 9.5K Seguidores</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between mt-4">
+                        <button onclick="switchVideo(0)" class="text-xs bg-amber-100 hover:bg-amber-200 text-amber-900 font-semibold px-3 py-1.5 rounded-lg transition">Video 1: Platos</button>
+                        <button onclick="switchVideo(1)" class="text-xs bg-amber-100 hover:bg-amber-200 text-amber-900 font-semibold px-3 py-1.5 rounded-lg transition">Video 2: Ambiente</button>
+                        <button onclick="switchVideo(2)" class="text-xs bg-amber-100 hover:bg-amber-200 text-amber-900 font-semibold px-3 py-1.5 rounded-lg transition">Video 3: Herencia Huasa</button>
+                    </div>
+                </div>
+
+                <!-- Google Maps Reviews Carousel & Info -->
+                <div class="lg:col-span-7 flex flex-col gap-6">
+                    <!-- Google Maps Reviews Slider Card -->
+                    <div class="bg-white p-8 rounded-3xl shadow-lg border border-amber-100 relative transition duration-300 transform hover:-translate-y-1">
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex items-center gap-2 text-red-600 font-bold">
+                                <i class="fa-brands fa-google text-2xl"></i> Reseñas Verificadas de Google Maps
+                            </div>
+                            <a href="https://maps.app.goo.gl/udjEaDnaUHZuT2Ve9" target="_blank" class="text-xs text-amber-700 font-semibold hover:underline flex items-center gap-1">
+                                Ver en Google <i class="fa-solid fa-external-link-alt text-[10px]"></i>
+                            </a>
+                        </div>
+
+                        <!-- Review Content Box -->
+                        <div id="reviewContainer" class="min-h-[140px] flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center gap-1 text-amber-500 mb-3" id="reviewStars">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </div>
+                                <blockquote id="reviewText" class="text-gray-800 text-base italic mb-4 font-serif">
+                                    "Excelente lugar, comida chilena muy contundente y con gran variedad. La atención es excelente y el entorno en Quebrada Alvarado es maravilloso para ir en familia."
+                                </blockquote>
+                            </div>
+                            <div class="flex items-center justify-between border-t border-gray-100 pt-4">
+                                <span id="reviewAuthor" class="text-xs font-bold text-gray-900">Carlos M. (Google Local Guide)</span>
+                                <span class="text-xs text-green-600 font-semibold"><i class="fa-solid fa-circle-check"></i> Comprobado</span>
+                            </div>
+                        </div>
+
+                        <!-- Carousel Controls & Auto Switch Indicator -->
+                        <div class="flex items-center justify-between mt-6 pt-4 border-t border-gray-100">
+                            <span class="text-xs text-gray-400">Rotación automática cada 5s</span>
+                            <div class="flex items-center gap-3">
+                                <button onclick="prevReview()" class="w-10 h-10 rounded-full bg-amber-50 hover:bg-amber-100 text-amber-800 flex items-center justify-center transition shadow-sm">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </button>
+                                <span id="reviewIndicator" class="text-xs font-bold text-gray-600">1 / 4</span>
+                                <button onclick="nextReview()" class="w-10 h-10 rounded-full bg-amber-50 hover:bg-amber-100 text-amber-800 flex items-center justify-center transition shadow-sm">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Nearby Attractions -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-amber-100 transition duration-300 transform hover:-translate-y-1">
+                        <h4 class="font-bold text-gray-900 mb-3 flex items-center gap-2">
+                            <i class="fa-solid fa-map-location-dot text-amber-600"></i> Puntos de Referencia Cercanos
+                        </h4>
+                        <div class="grid sm:grid-cols-3 gap-4 text-xs text-gray-600">
+                            <div class="bg-amber-50/50 p-3 rounded-xl border border-amber-100">
+                                <span class="font-bold text-amber-900 block mb-1">Parque Nacional La Campana</span>
+                                <span>Sector Cajón Grande (~6 km)</span>
+                            </div>
+                            <div class="bg-amber-50/50 p-3 rounded-xl border border-amber-100">
+                                <span class="font-bold text-amber-900 block mb-1">Santuario Niño Dios de las Palmas</span>
+                                <span>F-678 (~6 km)</span>
+                            </div>
+                            <div class="bg-amber-50/50 p-3 rounded-xl border border-amber-100">
+                                <span class="font-bold text-amber-900 block mb-1">Rosa Agustina Resort & Spa</span>
+                                <span>Avenida Lo Narváez (~8 km)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & GPS Map Section -->
+    <section id="ubicacion" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="transition duration-300 transform hover:scale-[1.01]">
+                <span class="text-xs uppercase tracking-wider font-bold text-amber-700 block mb-2">¿Cómo Llegar?</span>
+                <h2 class="text-3xl sm:text-4xl font-bold font-serif text-campestre-900 mb-6">Ubicación Estratégica en Quebrada Alvarado</h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Estamos emplazados en una zona privilegiada de Olmué, de fácil acceso y con alta afluencia de turistas que buscan desconectarse de la ciudad y disfrutar de la gastronomía campestre.
+                </p>
+                
+                <div class="space-y-4 mb-8">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-map-pin"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Dirección Exacta</h4>
+                            <p class="text-sm text-gray-600">F-10-G 218, Quebrada Alvarado, Olmué, Chile.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-green-100 text-green-700 flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-compass"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Coordenadas GPS</h4>
+                            <p class="text-sm text-gray-600">Latitud: -33.0520313 | Longitud: -71.1108425</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://maps.app.goo.gl/udjEaDnaUHZuT2Ve9" target="_blank" class="bg-campestre-forest hover:bg-campestre-900 text-white font-semibold px-6 py-3 rounded-xl text-sm transition flex items-center gap-2 shadow">
+                        <i class="fa-solid fa-map"></i> Abrir en Google Maps
+                    </a>
+                </div>
+            </div>
+
+            <!-- Simulated Map Card -->
+            <div class="bg-white p-4 rounded-3xl shadow-xl border border-amber-100 relative overflow-hidden transition duration-300 transform hover:-translate-y-2">
+                <div class="bg-amber-50 rounded-2xl p-6 text-center border border-amber-200/60 relative">
+                    <div class="absolute top-4 right-4 bg-amber-600 text-white text-xs px-2.5 py-1 rounded-full font-bold">GPS Activo</div>
+                    <div class="w-20 h-20 bg-amber-600/10 rounded-full flex items-center justify-center mx-auto mb-4 text-amber-700 text-3xl animate-bounce">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif text-gray-900 mb-2">Tenedor Libre Vitalia Campestre</h3>
+                    <p class="text-sm text-gray-600 mb-4">F-10-G 218, Olmué, Región de Valparaíso</p>
+                    
+                    <div class="bg-white p-4 rounded-xl text-left border border-amber-100 space-y-2 mb-4">
+                        <div class="flex justify-between text-xs"><span class="text-gray-500">Viña del Mar:</span><span class="font-bold text-gray-800">~41 km</span></div>
+                        <div class="flex justify-between text-xs"><span class="text-gray-500">Santiago:</span><span class="font-bold text-gray-800">~63 km</span></div>
+                        <div class="flex justify-between text-xs"><span class="text-gray-500">Quilpué:</span><span class="font-bold text-gray-800">~30 km</span></div>
+                    </div>
+
+                    <div class="text-xs text-gray-500 bg-amber-100/60 p-2.5 rounded-lg">
+                        <i class="fa-solid fa-info-circle text-amber-700"></i> Precisión GPS exacta para visitantes y flotas logísticas.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct WhatsApp Contact CTA Section -->
+    <section id="contacto" class="py-20 bg-campestre-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d97706_1px,transparent_1px)] [background-size:20px_20px]"></div>
+        
+        <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="text-emerald-400 font-semibold tracking-wider uppercase text-xs block mb-3">Atención Inmediata</span>
+            <h2 class="text-3xl sm:text-5xl font-bold font-serif mb-6">¿Quieres visitarnos o consultar disponibilidad?</h2>
+            <p class="text-gray-300 text-base sm:text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
+                Escríbenos directamente a nuestro WhatsApp y con gusto resolveremos tus dudas sobre nuestros menús campestres, reservas y eventos con Herencia Huasa.
+            </p>
+
+            <a href="https://wa.me/56961703998?text=Hola,%20me%20gustaría%20consultar%20sobre%20Tenedor%20Libre%20Vitalia%20Campestre" target="_blank" class="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-8 py-4 rounded-full shadow-2xl transition duration-300 transform hover:scale-105 text-lg">
+                <i class="fa-brands fa-whatsapp text-2xl"></i> Hablar por WhatsApp (+56 9 6170 3998)
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-400 py-12 border-t border-gray-800 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-amber-600 rounded-full flex items-center justify-center text-white font-bold">VC</div>
+                <div>
+                    <span class="text-white font-bold font-serif">Tenedor Libre Vitalia Campestre</span>
+                    <span class="block text-xs text-gray-500">Quebrada Alvarado, Olmué • Chile © 2026</span>
+                </div>
+            </div>
+            <div class="flex items-center space-x-6">
+                <a href="https://www.tiktok.com/@vitaliacampestre" target="_blank" class="hover:text-amber-400 transition"><i class="fa-brands fa-tiktok text-lg"></i></a>
+                <a href="https://wa.me/56961703998" target="_blank" class="hover:text-amber-400 transition"><i class="fa-brands fa-whatsapp text-lg"></i></a>
+                <a href="#ubicacion" class="hover:text-amber-400 transition"><i class="fa-solid fa-map-location-dot text-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Script -->
+    <script>
+        // TikTok Video Simulator Data & Logic
+        const tiktokVideos = [
+            {
+                bg: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=800",
+                caption: "¡Ven a disfrutar con tu familia de los mejores platos chilenos en Quebrada Alvarado, Olmué! 🇨🇱✨",
+                likes: "28.7K"
+            },
+            {
+                bg: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
+                caption: "Gran variedad de ensaladas frescas, carnes y postres imperdibles en nuestro tenedor libre campestre 🌳🍲",
+                likes: "34.2K"
+            },
+            {
+                bg: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&q=80&w=800",
+                caption: "¡Música y baile en vivo junto a Herencia Huasa! Tradición pura al pie de La Campana 💃🎸",
+                likes: "45.1K"
+            }
+        ];
+        let currentVideoIdx = 0;
+        let isPlaying = false;
+
+        function toggleVideoSim() {
+            const icon = document.getElementById('playIcon');
+            const btn = document.getElementById('playBtn');
+            isPlaying = !isPlaying;
+            if (isPlaying) {
+                icon.classList.remove('fa-play');
+                icon.classList.add('fa-pause');
+                btn.classList.add('scale-95');
+            } else {
+                icon.classList.remove('fa-pause');
+                icon.classList.add('fa-play');
+                btn.classList.remove('scale-95');
+            }
+        }
+
+        function switchVideo(idx) {
+            currentVideoIdx = idx;
+            const v = tiktokVideos[idx];
+            document.getElementById('videoBg').style.backgroundImage = `url('${v.bg}')`;
+            document.getElementById('videoCaption').innerText = v.caption;
+            document.getElementById('likeCount').innerText = v.likes;
+            isPlaying = false;
+            const icon = document.getElementById('playIcon');
+            icon.classList.remove('fa-pause');
+            icon.classList.add('fa-play');
+        }
+
+        // Google Maps Reviews Slider & Auto-rotation
+        const googleReviews = [
+            {
+                text: "Excelente lugar, comida chilena muy contundente y con gran variedad. La atención es excelente y el entorno en Quebrada Alvarado es maravilloso para ir en familia.",
+                author: "Carlos M. (Google Local Guide)",
+                rating: 5
+            },
+            {
+                text: "Bueno, bonito y barato, solo comida chilena de verdad. Gran variedad de platos, ensaladas frescas y postres exquisitos. 100% recomendado.",
+                author: "Marcela R. (Google Maps)",
+                rating: 5
+            },
+            {
+                text: "Un lugar hermoso en Olmué. La comida es un verdadero manjar casero y el ambiente campestre con música en vivo es insuperable.",
+                author: "Esteban G. (Google Maps)",
+                rating: 5
+            },
+            {
+                text: "Impecable la atención y la abundancia del tenedor libre. Muy cómodo para ir en auto y pasar un día de descanso inolvidable.",
+                author: "Daniela P. (Google Local Guide)",
+                rating: 5
+            }
+        ];
+        let currentReviewIdx = 0;
+        let reviewTimer = null;
+
+        function updateReviewDisplay() {
+            const r = googleReviews[currentReviewIdx];
+            document.getElementById('reviewText').innerText = `"${r.text}"`;
+            document.getElementById('reviewAuthor').innerText = r.author;
+            document.getElementById('reviewIndicator').innerText = `${currentReviewIdx + 1} / ${googleReviews.length}`;
+        }
+
+        function nextReview() {
+            currentReviewIdx = (currentReviewIdx + 1) % googleReviews.length;
+            updateReviewDisplay();
+            resetReviewTimer();
+        }
+
+        function prevReview() {
+            currentReviewIdx = (currentReviewIdx - 1 + googleReviews.length) % googleReviews.length;
+            updateReviewDisplay();
+            resetReviewTimer();
+        }
+
+        function resetReviewTimer() {
+            clearInterval(reviewTimer);
+            reviewTimer = setInterval(nextReview, 5000);
+        }
+
+        // Initialize auto-rotation on load
+        window.onload = function() {
+            reviewTimer = setInterval(nextReview, 5000);
+        };
+    </script>
+</body>
+</html>
